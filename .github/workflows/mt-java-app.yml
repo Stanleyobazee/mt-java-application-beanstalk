@@ -32,4 +32,4 @@ jobs:
         environment_name: Mt-java-application-env
         version_label: ${{ github.sha }}
         region: us-east-1
-        deployment_package: springboot-example
+        deployment_package: target/springboot-example.jar
